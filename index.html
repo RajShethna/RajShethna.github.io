@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Raj Shethna — Manufacturing Engineer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+	<meta name="theme-color" content="#faf7e8" media="(prefers-color-scheme: light)" />
+	<meta name="theme-color" content="#06131b" media="(prefers-color-scheme: dark)" />
 	<meta name="description" content="Raj Shethna — Manufacturing Engineer at KSR International supporting automated assembly, PLC-controlled equipment and sensor test, with a background in electrical engineering and IATF 16949 quality, who applies data analytics and AI using SQL, Power BI, Tableau and Python." />
 	<meta name="color-scheme" content="light dark" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -393,6 +395,7 @@
 				a.addEventListener('click', function () { setOpen(false); });
 			});
 			document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+			document.addEventListener('click', function (e) { if (nav.classList.contains('open') && !nav.contains(e.target)) setOpen(false); });
 		})();
 	</script>
 
