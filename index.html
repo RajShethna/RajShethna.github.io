@@ -4,72 +4,106 @@
 	<meta charset="utf-8" />
 	<title>Raj Shethna — Manufacturing Engineer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="Raj Shethna — Manufacturing Engineer at KSR International with a background in electrical engineering, quality systems, and IATF 16949, who applies data analytics and AI using SQL, Power BI, Tableau, and Python." />
+	<meta name="description" content="Raj Shethna — Manufacturing Engineer at KSR International supporting automated assembly, PLC-controlled equipment and sensor test, with a background in electrical engineering and IATF 16949 quality, who applies data analytics and AI using SQL, Power BI, Tableau and Python." />
 	<meta name="color-scheme" content="light dark" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 	<!-- Nav -->
-	<nav class="navbar">
+	<nav class="navbar" aria-label="Main">
 		<div class="container">
-			<a href="#top" class="brand">Raj Shethna<span>.</span></a>
-			<ul class="nav-links">
+			<a href="#top" class="brand">Raj Shethna<span></span></a>
+			<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+				<i class="fas fa-bars" aria-hidden="true"></i>
+			</button>
+			<ul class="nav-links" id="nav-links">
 				<li><a href="#about">About</a></li>
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#experience">Experience</a></li>
 				<li><a href="#education">Education</a></li>
+				<li class="nav-links-cta"><a href="#contact">Get in touch</a></li>
 			</ul>
-			<a href="#contact" class="nav-cta"><i class="fas fa-paper-plane"></i> Get in touch</a>
+			<a href="#contact" class="nav-cta"><i class="fas fa-paper-plane" aria-hidden="true"></i> Get in touch</a>
 		</div>
 	</nav>
 
 	<!-- Hero -->
 	<header class="hero" id="top">
-		<div class="container">
-			<span class="hero-tag">Manufacturing Engineer at KSR International</span>
-			<span class="hero-kicker">Manufacturing Engineering · Data &amp; AI</span>
-			<h1 class="hero-name">Raj <span class="accent">Shethna</span></h1>
-			<p class="hero-role"><span class="curious">Stay Curious</span> — Where Shop-Floor Engineering Meets Data, AI, and Machine Learning</p>
-			<p class="lead">A manufacturing engineer with hands-on plant-floor experience in electrical systems, equipment commissioning, and IATF 16949 quality standards — who applies data analytics and AI, built in SQL, Power BI, Tableau, and Python, to make that operational experience actionable.</p>
-			<div class="hero-actions">
-				<a href="#projects" class="btn btn-primary"><i class="fas fa-diagram-project"></i> View Projects</a>
-				<a href="#contact" class="btn btn-ghost"><i class="fas fa-envelope"></i> Contact Me</a>
+		<div class="container hero-grid">
+			<div class="hero-main">
+				<h1 class="hero-name">Raj Shethna</h1>
+				<p class="hero-role"><span class="curious">Stay Curious</span> — where shop-floor engineering meets data, AI and machine learning</p>
+				<p class="lead">A manufacturing engineer with hands-on plant-floor experience in automated assembly, electrical systems and IATF 16949 quality, who uses data analytics and AI, built in SQL, Power BI, Tableau and Python, to make that operational experience actionable.</p>
+				<div class="hero-actions">
+					<a href="#projects" class="btn btn-primary"><i class="fas fa-project-diagram" aria-hidden="true"></i> View projects</a>
+					<a href="#contact" class="btn btn-ghost"><i class="fas fa-envelope" aria-hidden="true"></i> Contact me</a>
+				</div>
+				<div class="hero-social">
+					<a href="mailto:shethnarcan@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+					<a href="https://www.linkedin.com/in/rajshethna" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://www.github.com/RajShethna" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+					<a href="https://www.medium.com/@raj-shethna" target="_blank" rel="noopener" aria-label="Medium"><i class="fab fa-medium-m"></i></a>
+				</div>
 			</div>
-			<div class="hero-social">
-				<a href="mailto:shethnarcan@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-				<a href="https://www.linkedin.com/in/rajshethna" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-				<a href="https://www.github.com/RajShethna" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-				<a href="https://www.medium.com/@raj-shethna" target="_blank" rel="noopener" aria-label="Medium"><i class="fab fa-medium-m"></i></a>
-			</div>
+
+			<!-- Engineering-drawing title block -->
+			<dl class="title-block" aria-label="Current role at a glance">
+				<div class="tb-row tb-wide">
+					<dt>Role</dt>
+					<dd class="tb-big">Manufacturing Engineer</dd>
+				</div>
+				<div class="tb-row">
+					<dt>Company</dt>
+					<dd>KSR International</dd>
+				</div>
+				<div class="tb-row">
+					<dt>Location</dt>
+					<dd>Ridgetown, Ontario</dd>
+				</div>
+				<div class="tb-row tb-wide">
+					<dt>On the floor</dt>
+					<dd>Automated assembly, PLC troubleshooting, robot recovery, sensor test and EEPROM programming</dd>
+				</div>
+				<div class="tb-row tb-wide">
+					<dt>Off the floor</dt>
+					<dd>SQL, Python, Power BI and Tableau for process and maintenance data</dd>
+				</div>
+				<div class="tb-row">
+					<dt>Background</dt>
+					<dd>Electrical Engineering, M.Eng Windsor</dd>
+				</div>
+				<div class="tb-row tb-rev">
+					<dt>Rev.</dt>
+					<dd>Oct 2026</dd>
+				</div>
+			</dl>
 		</div>
 	</header>
 
+	<main>
 	<!-- About -->
 	<section id="about">
 		<div class="container about-grid">
 			<div class="about-text">
 				<span class="eyebrow">About</span>
-				<h2 style="margin-bottom:20px;">From the Shop Floor to the Dashboard</h2>
+				<h2>From the shop floor to the dashboard</h2>
 				<p>Stay Curious is more than a motto — it is the belief that data from the past can help us make wiser decisions and shape a stronger future, and it is the thread running through everything I do.</p>
-				<p>I began my career on the production floor, commissioning equipment, troubleshooting controls, and analyzing plant performance as an Electrical Engineer at Reliance Industries Limited. That work created a lasting curiosity about solving problems through data rather than intuition alone.</p>
-				<p>I bring both disciplines to my work: a hands-on engineering foundation in PLC troubleshooting, root cause analysis, and IATF 16949 quality systems, alongside a data practice built in SQL, Power BI, Tableau, and Python. NPower's Junior Data Analyst Program, Microsoft AI-900 certification, and a Master of Engineering from the University of Windsor deepen both sides. Independent projects across manufacturing, human resources, and media data put them together.</p>
-				<p>I am joining KSR International as a Manufacturing Engineer, where curiosity, engineering intuition, and data fluency will meet on the shop floor every day.</p>
+				<p>I began my career on the production floor, commissioning equipment, troubleshooting controls and analyzing plant performance as an Electrical Engineer at Reliance Industries Limited. That work created a lasting curiosity about solving problems through data rather than intuition alone.</p>
+				<p>I bring both disciplines to my work: a hands-on engineering foundation in PLC troubleshooting, root cause analysis and IATF 16949 quality systems, alongside a data practice built in SQL, Power BI, Tableau and Python. NPower's Junior Data Analyst Program, Microsoft AI-900 certification and a Master of Engineering from the University of Windsor deepen both sides.</p>
+				<p>Today I am a Manufacturing Engineer at KSR International, supporting automated assembly lines, PLC-controlled equipment and end-of-line sensor test, where curiosity, engineering intuition and data fluency meet on the shop floor every day.</p>
 			</div>
-			<div class="stat-card">
-				<div class="stat-list">
-					<div class="stat-item"><span class="label">Based in</span><span class="value">Windsor, ON</span></div>
-					<div class="stat-item"><span class="label">Focus</span><span class="value">Manufacturing Engineering · Data &amp; AI</span></div>
-					<div class="stat-item"><span class="label">Core tools</span><span class="value">SQL · Power BI · Tableau · Python</span></div>
-					<div class="stat-item"><span class="label">Background</span><span class="value">Electrical Engineering</span></div>
-					<div class="stat-item"><span class="label">Education</span><span class="value">M.Eng, University of Windsor</span></div>
-				</div>
-			</div>
+			<figure class="quote-card">
+				<blockquote>
+					<p>“Raj has proven himself to be a very valuable employee. He has shown passion for data analytics and AI, and whenever called upon, he always rises to the occasion.”</p>
+				</blockquote>
+				<figcaption>Matthew deJong, Area Sales Manager at PepsiCo</figcaption>
+			</figure>
 		</div>
 	</section>
 
@@ -82,30 +116,40 @@
 			</div>
 			<div class="skill-groups">
 				<div class="skill-group">
-					<h4>Data &amp; Analytics</h4>
+					<h3>Automation and controls</h3>
 					<div class="chip-row">
-						<span class="chip accent">SQL</span>
-						<span class="chip accent">Power BI</span>
-						<span class="chip accent">Tableau</span>
-						<span class="chip accent">Python</span>
-						<span class="chip accent">Power Query</span>
-						<span class="chip accent">Excel</span>
-						<span class="chip accent">DAX</span>
-						<span class="chip accent">Data Visualization</span>
-						<span class="chip accent">Statistical Analysis</span>
-						<span class="chip accent">Artificial Intelligence &amp; Machine Learning</span>
+						<span class="chip accent">PLC Troubleshooting</span>
+						<span class="chip accent">Automated Assembly</span>
+						<span class="chip accent">Automated Soldering</span>
+						<span class="chip accent">Robot Homing &amp; Fault Recovery</span>
+						<span class="chip accent">Sensor Test &amp; EEPROM Programming</span>
+						<span class="chip accent">VFDs</span>
 					</div>
 				</div>
 				<div class="skill-group">
-					<h4>Engineering &amp; Domain Expertise</h4>
+					<h3>Engineering and quality</h3>
 					<div class="chip-row">
 						<span class="chip">Root Cause Analysis (RCA)</span>
 						<span class="chip">Process Improvement</span>
 						<span class="chip">Quality Systems (IATF 16949)</span>
-						<span class="chip">PLC &amp; Automation Systems</span>
 						<span class="chip">Equipment Troubleshooting</span>
-						<span class="chip">Cross-Functional Collaboration</span>
 						<span class="chip">Process Documentation</span>
+						<span class="chip">Cross-Functional Collaboration</span>
+					</div>
+				</div>
+				<div class="skill-group">
+					<h3>Data and analytics</h3>
+					<div class="chip-row">
+						<span class="chip">SQL</span>
+						<span class="chip">Power BI</span>
+						<span class="chip">Tableau</span>
+						<span class="chip">Python</span>
+						<span class="chip">Power Query</span>
+						<span class="chip">Excel</span>
+						<span class="chip">DAX</span>
+						<span class="chip">Data Visualization</span>
+						<span class="chip">Statistical Analysis</span>
+						<span class="chip">Artificial Intelligence &amp; Machine Learning</span>
 					</div>
 				</div>
 			</div>
@@ -118,13 +162,13 @@
 			<div class="section-head">
 				<span class="eyebrow">Projects</span>
 				<h2>Featured work</h2>
-				<p>A mix of independent projects applying SQL, Power BI, and Python to real datasets across manufacturing, HR, and media — grounded in an engineering eye for process data and operational patterns.</p>
+				<p>Independent projects applying SQL, Power BI and Python to real datasets across manufacturing, HR and media, grounded in an engineering eye for process data and operational patterns.</p>
 			</div>
 
 			<div class="project-grid">
 
-				<div class="project-card">
-					<div class="project-icon"><i class="fas fa-gears"></i></div>
+				<article class="project-card featured">
+					<div class="project-icon"><i class="fas fa-cogs" aria-hidden="true"></i></div>
 					<h3>Predictive Maintenance Analysis</h3>
 					<p>Analyzed 10,000 production runs from the AI4I 2020 manufacturing dataset to find the process conditions behind machine failure. Found that runs above 47 Nm torque and 130 minutes of tool wear fail at 4.3x the average rate — a rule that flags the highest-risk 9.5% of runs, responsible for 41% of all failures.</p>
 					<div class="tag-row">
@@ -132,73 +176,73 @@
 						<span class="tag">Power BI</span>
 						<span class="tag">Manufacturing</span>
 					</div>
-					<a class="project-link" href="https://github.com/RajShethna/Predictive-Maintenance-Analysis" target="_blank" rel="noopener">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
-				</div>
+					<a class="project-link" href="https://github.com/RajShethna/Predictive-Maintenance-Analysis" target="_blank" rel="noopener">View on GitHub <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+				</article>
 
-				<div class="project-card">
-					<div class="project-icon"><i class="fas fa-users"></i></div>
+				<article class="project-card">
+					<div class="project-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
 					<h3>HR Analytics — IBM</h3>
-					<p>Explored IBM's employee dataset to understand the drivers of attrition and job satisfaction, examining monthly income, age, and job level to surface at-risk employee segments.</p>
+					<p>Explored IBM's employee dataset to understand the drivers of attrition and job satisfaction, examining monthly income, age and job level to surface at-risk employee segments.</p>
 					<div class="tag-row">
 						<span class="tag">Power BI</span>
 						<span class="tag">People Analytics</span>
 					</div>
-					<a class="project-link" href="https://github.com/RajShethna/IBM_HRAnalytics" target="_blank" rel="noopener">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
-				</div>
+					<a class="project-link" href="https://github.com/RajShethna/IBM_HRAnalytics" target="_blank" rel="noopener">View on GitHub <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+				</article>
 
-				<div class="project-card">
-					<div class="project-icon"><i class="fas fa-people-group"></i></div>
+				<article class="project-card">
+					<div class="project-icon"><i class="fas fa-headset" aria-hidden="true"></i></div>
 					<h3>Call Center &amp; D&amp;I Analysis — PwC Switzerland</h3>
-					<p>A three-part Power BI series built for PwC's virtual experience program, analyzing call center operations from January to March 2021, covering issue resolution, agent performance, and customer satisfaction, alongside a study of workplace diversity, inclusion, and its relationship to employee turnover.</p>
+					<p>A three-part Power BI series built for PwC's virtual experience program, analyzing call center operations from January to March 2021, covering issue resolution, agent performance and customer satisfaction, alongside a study of workplace diversity, inclusion and its relationship to employee turnover.</p>
 					<div class="tag-row">
 						<span class="tag">Power BI</span>
 						<span class="tag">Data Cleaning</span>
 						<span class="tag">People Analytics</span>
 					</div>
-					<a class="project-link" href="https://github.com/RajShethna/PwC-Vitual-Experience-Program/blob/main/pwc_D%26I_analysis.pbix" target="_blank" rel="noopener">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
-				</div>
+					<a class="project-link" href="https://github.com/RajShethna/PwC-Vitual-Experience-Program/blob/main/pwc_D%26I_analysis.pbix" target="_blank" rel="noopener">View on GitHub <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+				</article>
 
-				<div class="project-card">
-					<div class="project-icon"><i class="fas fa-film"></i></div>
+				<article class="project-card">
+					<div class="project-icon"><i class="fas fa-film" aria-hidden="true"></i></div>
 					<h3>Media Revenue Analysis</h3>
 					<p>Investigated the factors behind gross earnings for movies and TV series, using SQL for data wrangling and Power BI to visualize revenue trends and drivers.</p>
 					<div class="tag-row">
 						<span class="tag">SQL</span>
 						<span class="tag">Power BI</span>
 					</div>
-					<a class="project-link" href="https://github.com/RajShethna/Media_Revenue_Analysis" target="_blank" rel="noopener">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
-				</div>
+					<a class="project-link" href="https://github.com/RajShethna/Media_Revenue_Analysis" target="_blank" rel="noopener">View on GitHub <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+				</article>
 
-				<div class="project-card">
-					<div class="project-icon"><i class="fas fa-chart-line"></i></div>
+				<article class="project-card">
+					<div class="project-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
 					<h3>Demand Trend for Programming Languages</h3>
-					<p>IBM Data Analyst Professional Certificate capstone: a descriptive analysis of current and projected demand for programming languages, databases, platforms, and web frameworks.</p>
+					<p>IBM Data Analyst Professional Certificate capstone: a descriptive analysis of current and projected demand for programming languages, databases, platforms and web frameworks.</p>
 					<div class="tag-row">
 						<span class="tag">Data Analysis</span>
 						<span class="tag">Python</span>
 					</div>
-					<a class="project-link" href="https://github.com/RajShethna/IBM_-DataAnalyst_CapstoneCourse_-CourseraCourse9" target="_blank" rel="noopener">View on GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
-				</div>
+					<a class="project-link" href="https://github.com/RajShethna/IBM_-DataAnalyst_CapstoneCourse_-CourseraCourse9" target="_blank" rel="noopener">View on GitHub <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+				</article>
 
 			</div>
 
 			<div class="other-projects">
-				<h3>Other Projects</h3>
+				<h3>Other projects</h3>
 				<div class="mini-grid">
 					<div class="mini-card">
 						<h4>Cracking the Vigenère Cipher</h4>
 						<p>Statistical attack to determine an unknown key length and decrypt Vigenère-encrypted text without prior knowledge of the key.</p>
-						<a href="https://github.com/RajShethna/Cracking_Vigenere_cipher_without_knowing_keylength" target="_blank" rel="noopener">View on GitHub →</a>
+						<a href="https://github.com/RajShethna/Cracking_Vigenere_cipher_without_knowing_keylength" target="_blank" rel="noopener">View on GitHub</a>
 					</div>
 					<div class="mini-card">
 						<h4>AES-128 Implementation</h4>
 						<p>Built AES-128 round-key expansion and encryption from scratch to understand the algorithm behind modern symmetric encryption.</p>
-						<a href="https://github.com/RajShethna/AdvancedEncryptionStandard-128_roundkeyexpansion_and_encryption" target="_blank" rel="noopener">View on GitHub →</a>
+						<a href="https://github.com/RajShethna/AdvancedEncryptionStandard-128_roundkeyexpansion_and_encryption" target="_blank" rel="noopener">View on GitHub</a>
 					</div>
 					<div class="mini-card">
 						<h4>Confirming the Value of Pi</h4>
 						<p>Approximated π using the perimeters of inscribed polygons (1–100 sides) across varying radii, pairing geometry with computation.</p>
-						<a href="https://github.com/RajShethna/Confirming_the_value_of_pi" target="_blank" rel="noopener">View on GitHub →</a>
+						<a href="https://github.com/RajShethna/Confirming_the_value_of_pi" target="_blank" rel="noopener">View on GitHub</a>
 					</div>
 				</div>
 			</div>
@@ -210,56 +254,46 @@
 		<div class="container">
 			<div class="section-head">
 				<span class="eyebrow">Experience</span>
-				<h2>Where I Have Worked</h2>
+				<h2>Where I have worked</h2>
 			</div>
-			<div class="timeline">
-				<div class="timeline-item">
-					<div class="timeline-date">October 2026 — Present</div>
+			<ol class="timeline">
+				<li class="timeline-item current">
+					<div class="timeline-date">October 2026 – Present <span class="badge">Current role</span></div>
 					<h3>Manufacturing Engineer</h3>
-					<div class="org"><a href="https://ksrint.com/" target="_blank" rel="noopener noreferrer">KSR International</a> · Ridgetown, Ontario</div>
-					<p class="desc">Joining KSR International, a Tier 1 supplier of pedal and sensor systems, as a Manufacturing Engineer.</p>
-				</div>
-				<div class="timeline-item">
-					<div class="timeline-date">September 2025 — October 2026</div>
+					<div class="org"><a href="https://ksrint.com/" target="_blank" rel="noopener noreferrer">KSR International</a>, Ridgetown, Ontario — Tier 1 supplier of pedal systems and position sensors</div>
+					<p class="desc">Support high-volume automated assembly lines, including an automated soldering line, monitoring and troubleshooting PLC logic, I/O and sensor faults to get equipment running again. Recover robotic cells after faults through robot homing and restart, working with maintenance and production teams on shift to limit downtime. Help diagnose failures at end-of-line sensor test and EEPROM programming stations, separating product, fixture and equipment causes, and contribute to continuous improvement and process documentation.</p>
+				</li>
+				<li class="timeline-item">
+					<div class="timeline-date">September 2025 – October 2026</div>
 					<h3>Production Associate</h3>
-					<div class="org"><a href="https://plasman.com/" target="_blank" rel="noopener noreferrer">Plasman</a> · Tilbury, Ontario</div>
-					<p class="desc">Conduct thorough part inspections each shift to identify defects and ensure full adherence to quality standards prior to packaging. Support paint line operations by loading and unloading components while maintaining continuous flow. Streamlined packaging and material handling workflows to improve throughput, and collaborated with operators and team leads to drive down rework rates.</p>
-				</div>
-				<div class="timeline-item">
-					<div class="timeline-date">October 2024 — September 2025</div>
+					<div class="org"><a href="https://plasman.com/" target="_blank" rel="noopener noreferrer">Plasman</a>, Tilbury, Ontario</div>
+					<p class="desc">Conducted thorough part inspections each shift to identify defects and ensure full adherence to quality standards prior to packaging. Supported paint line operations by loading and unloading components while maintaining continuous flow. Streamlined packaging and material handling workflows to improve throughput, and collaborated with operators and team leads to drive down rework rates.</p>
+				</li>
+				<li class="timeline-item">
+					<div class="timeline-date">October 2024 – September 2025</div>
 					<h3>Account Merchandiser</h3>
-					<div class="org"><a href="https://share.google/VI8fQhcAPYYy7ip6e" target="_blank" rel="noopener noreferrer">PepsiCo</a> · Essex, Ontario</div>
+					<div class="org"><a href="https://share.google/VI8fQhcAPYYy7ip6e" target="_blank" rel="noopener noreferrer">PepsiCo</a>, Essex, Ontario</div>
 					<p class="desc">Performed detailed product inspections across multiple retail accounts to ensure compliance with quality and merchandising standards. Streamlined stock handling and rotation processes to reduce placement errors, and partnered with cross-functional teams and store managers to resolve quality issues and maintain accurate inventory records.</p>
-				</div>
-				<div class="timeline-item">
-					<div class="timeline-date">May 2022 — October 2024</div>
+				</li>
+				<li class="timeline-item">
+					<div class="timeline-date">May 2022 – October 2024</div>
 					<h3>Office Administrator</h3>
-					<div class="org"><a href="http://www.theeuropeanmarket.ca/index.html" target="_blank" rel="noopener noreferrer">European Market</a> · Windsor, Ontario</div>
+					<div class="org"><a href="http://www.theeuropeanmarket.ca/index.html" target="_blank" rel="noopener noreferrer">European Market</a>, Windsor, Ontario</div>
 					<p class="desc">Managed office accounts using Microsoft Excel to improve operational efficiency across departments. Led onboarding for new employees, including workstation setup and policy orientation, and provided customer service that supported client retention.</p>
-				</div>
-				<div class="timeline-item">
-					<div class="timeline-date">February 2021 — March 2022</div>
+				</li>
+				<li class="timeline-item">
+					<div class="timeline-date">February 2021 – March 2022</div>
 					<h3>Electrical Engineer</h3>
-					<div class="org"><a href="https://www.ril.com/" target="_blank" rel="noopener noreferrer">Reliance Industries Limited</a> · Jamnagar, India</div>
-					<p class="desc">Tested HT and LT motors and troubleshot and maintained variable frequency drives (VFDs). Collected and reviewed vibration and condition-monitoring data, and carried out trip and failure investigations on driven equipment, leading root cause analysis on some and owning the corrective actions. Managed critical spares, took part in management of change (MOC), and supervised substation commissioning, coordinating with maintenance, operations, and contractor teams during shutdown windows.</p>
-				</div>
-				<div class="timeline-item">
-					<div class="timeline-date">May 2019 — July 2019</div>
+					<div class="org"><a href="https://www.ril.com/" target="_blank" rel="noopener noreferrer">Reliance Industries Limited</a>, Jamnagar, India</div>
+					<p class="desc">Tested HT and LT motors and troubleshot and maintained variable frequency drives (VFDs). Collected and reviewed vibration and condition-monitoring data, and carried out trip and failure investigations on driven equipment, leading root cause analysis on some and owning the corrective actions. Managed critical spares, took part in management of change (MOC), and supervised substation commissioning, coordinating with maintenance, operations and contractor teams during shutdown windows.</p>
+				</li>
+				<li class="timeline-item">
+					<div class="timeline-date">May 2019 – July 2019</div>
 					<h3>Project Intern</h3>
-					<div class="org"><a href="https://www.ril.com/" target="_blank" rel="noopener noreferrer">Reliance Industries Limited</a> · Hazira, India</div>
+					<div class="org"><a href="https://www.ril.com/" target="_blank" rel="noopener noreferrer">Reliance Industries Limited</a>, Hazira, India</div>
 					<p class="desc">Analyzed historical transformer maintenance reports using Microsoft Excel to identify trends in oil breakdown voltage and moisture content. Built a Duval Triangle model for transformer fault diagnosis, achieving 90 percent accuracy, which was integrated into the company's routine maintenance procedures.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Testimonial -->
-	<section id="testimonial" style="padding: 64px 0;">
-		<div class="container">
-			<blockquote class="quote-card">
-				<p>"Raj has proven himself to be a very valuable employee. He has shown passion for data analytics and AI, and whenever called upon, he always rises to the occasion."</p>
-				<cite>— Matthew deJong, Area Sales Manager at PepsiCo</cite>
-			</blockquote>
+				</li>
+			</ol>
 		</div>
 	</section>
 
@@ -267,81 +301,41 @@
 	<section id="education">
 		<div class="container">
 			<div class="section-head">
-				<span class="eyebrow">Education &amp; Certifications</span>
+				<span class="eyebrow">Education and certifications</span>
 				<h2>Background</h2>
 			</div>
 			<div class="edu-grid">
 				<div class="edu-card">
 					<h4>Master of Engineering</h4>
-					<p>Electrical and Computer Engineering · University of Windsor</p>
-					<p class="edu-meta">May 2022 – August 2023 · Grade: A+ · Golden Key International Honour Society (Top 15%)</p>
+					<p>Electrical and Computer Engineering, University of Windsor</p>
+					<p class="edu-meta">May 2022 – August 2023. Grade: A+. Golden Key International Honour Society (top 15%)</p>
 				</div>
 				<div class="edu-card">
 					<h4>Junior Data Analyst Program</h4>
 					<p>NPower</p>
-					<p class="edu-meta">May 2024 – August 2024 · Python, SQL, Excel, and IBM Cognos Analytics for data wrangling and dashboards</p>
+					<p class="edu-meta">May 2024 – August 2024. Python, SQL, Excel and IBM Cognos Analytics for data wrangling and dashboards</p>
 				</div>
 				<div class="edu-card">
 					<h4>Bachelor of Technology</h4>
-					<p>Electrical Engineering · Nirma University</p>
-					<p class="edu-meta">August 2016 – June 2020 · Grade: First Class</p>
+					<p>Electrical Engineering, Nirma University</p>
+					<p class="edu-meta">August 2016 – June 2020. Grade: First Class</p>
 				</div>
 			</div>
 
-			<div class="cert-full-list" style="margin-top:48px;">
-				<h3 class="eyebrow" style="margin-bottom:24px;">Certifications</h3>
-				<div class="edu-grid">
-					<div class="edu-card">
-						<h4><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/4Rfzeut8gXmNwfxXv_SKZxezskWgmFjRvj9_fJgJtAF7S6nPexRia_1742333620737_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Introduction to Strategy Consulting Job Simulation</a></h4>
-						<p>Boston Consulting Group (BCG)</p>
-						<p class="edu-meta">Issued Mar 2025</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://www.coursera.org/account/accomplishments/specialization/8KQG4S9AZ72I" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Project Management: Tools, Approaches, Behavioural Skills Specialization</a></h4>
-						<p>Politecnico di Milano</p>
-						<p class="edu-meta">Issued Oct 2024</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://www.coursera.org/account/accomplishments/specialization/IKD5P5EVBMIL" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">IBM Data Analyst Specialization</a></h4>
-						<p>IBM</p>
-						<p class="edu-meta">Issued Aug 2024</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://analytics.google.com/analytics/academy/certificate/zBbZfKK5QDuTwNa0QZeulA" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Google Analytics for Beginners</a></h4>
-						<p>Google</p>
-						<p class="edu-meta">Issued Jun 2024 · Expires Jun 2027</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://www.coursera.org/account/accomplishments/records/924JFXVP64YW" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Supervised Machine Learning: Regression and Classification</a></h4>
-						<p>DeepLearning.AI</p>
-						<p class="edu-meta">Issued Jun 2024</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://learn.microsoft.com/api/credentials/share/en-us/RajShethna-9043/A5B550FCAD13B8A0?sharingId" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Microsoft Certified: Azure AI Fundamentals</a></h4>
-						<p>Microsoft</p>
-						<p class="edu-meta">Issued Jun 2024</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://www.coursera.org/account/accomplishments/records/VUADXZFWA3KN" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Human Resources Analytics</a></h4>
-						<p>University of California, Irvine · Coursera</p>
-						<p class="edu-meta">Issued Apr 2024</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/63UMQXWZ75Z9" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Google Business Intelligence Specialization</a></h4>
-						<p>Google</p>
-						<p class="edu-meta">Issued Nov 2023</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/3FHW3ED54RYQ" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Google Data Analytics Specialization</a></h4>
-						<p>Google</p>
-						<p class="edu-meta">Issued Oct 2023</p>
-					</div>
-					<div class="edu-card">
-						<h4><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/a87GpgE6tiku7q3gu_PwC%20Switzerland_fJgJtAF7S6nPexRia_1697612288213_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Virtual Experience Program</a></h4>
-						<p>PwC</p>
-						<p class="edu-meta">Issued Oct 2023</p>
-					</div>
-				</div>
+			<div class="cert-full-list">
+				<h3 class="sub-head">Certifications</h3>
+				<ul class="cert-grid">
+					<li><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/4Rfzeut8gXmNwfxXv_SKZxezskWgmFjRvj9_fJgJtAF7S6nPexRia_1742333620737_completion_certificate.pdf" target="_blank" rel="noopener noreferrer"><span class="cert-name">Introduction to Strategy Consulting Job Simulation</span><span class="cert-meta">Boston Consulting Group (BCG), Mar 2025</span></a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/specialization/8KQG4S9AZ72I" target="_blank" rel="noopener noreferrer"><span class="cert-name">Project Management: Tools, Approaches, Behavioural Skills Specialization</span><span class="cert-meta">Politecnico di Milano, Oct 2024</span></a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/specialization/IKD5P5EVBMIL" target="_blank" rel="noopener noreferrer"><span class="cert-name">IBM Data Analyst Specialization</span><span class="cert-meta">IBM, Aug 2024</span></a></li>
+					<li><a href="https://analytics.google.com/analytics/academy/certificate/zBbZfKK5QDuTwNa0QZeulA" target="_blank" rel="noopener noreferrer"><span class="cert-name">Google Analytics for Beginners</span><span class="cert-meta">Google, Jun 2024, expires Jun 2027</span></a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/records/924JFXVP64YW" target="_blank" rel="noopener noreferrer"><span class="cert-name">Supervised Machine Learning: Regression and Classification</span><span class="cert-meta">DeepLearning.AI, Jun 2024</span></a></li>
+					<li><a href="https://learn.microsoft.com/api/credentials/share/en-us/RajShethna-9043/A5B550FCAD13B8A0?sharingId" target="_blank" rel="noopener noreferrer"><span class="cert-name">Microsoft Certified: Azure AI Fundamentals</span><span class="cert-meta">Microsoft, Jun 2024</span></a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/records/VUADXZFWA3KN" target="_blank" rel="noopener noreferrer"><span class="cert-name">Human Resources Analytics</span><span class="cert-meta">University of California, Irvine (Coursera), Apr 2024</span></a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/63UMQXWZ75Z9" target="_blank" rel="noopener noreferrer"><span class="cert-name">Google Business Intelligence Specialization</span><span class="cert-meta">Google, Nov 2023</span></a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/3FHW3ED54RYQ" target="_blank" rel="noopener noreferrer"><span class="cert-name">Google Data Analytics Specialization</span><span class="cert-meta">Google, Oct 2023</span></a></li>
+					<li><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/a87GpgE6tiku7q3gu_PwC%20Switzerland_fJgJtAF7S6nPexRia_1697612288213_completion_certificate.pdf" target="_blank" rel="noopener noreferrer"><span class="cert-name">Virtual Experience Program</span><span class="cert-meta">PwC, Oct 2023</span></a></li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -352,37 +346,55 @@
 			<div>
 				<div class="section-head">
 					<span class="eyebrow">Contact</span>
-					<h2>Let Us Connect</h2>
-					<p>Working on something in manufacturing, data, or AI, or simply want to compare notes? I would welcome the opportunity to hear from you.</p>
+					<h2>Let us connect</h2>
+					<p>Working on something in manufacturing, data or AI, or simply want to compare notes? I would welcome the opportunity to hear from you.</p>
 				</div>
 				<div class="contact-list">
-					<a href="mailto:shethnarcan@gmail.com"><i class="fas fa-envelope"></i> shethnarcan@gmail.com</a>
-					<a href="https://www.linkedin.com/in/rajshethna" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> linkedin.com/in/rajshethna</a>
-					<a href="https://www.github.com/RajShethna" target="_blank" rel="noopener"><i class="fab fa-github"></i> github.com/RajShethna</a>
-					<a href="https://www.medium.com/@raj-shethna" target="_blank" rel="noopener"><i class="fab fa-medium-m"></i> medium.com/@raj-shethna</a>
+					<a href="mailto:shethnarcan@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> shethnarcan@gmail.com</a>
+					<a href="https://www.linkedin.com/in/rajshethna" target="_blank" rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i> linkedin.com/in/rajshethna</a>
+					<a href="https://www.github.com/RajShethna" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> github.com/RajShethna</a>
+					<a href="https://www.medium.com/@raj-shethna" target="_blank" rel="noopener"><i class="fab fa-medium-m" aria-hidden="true"></i> medium.com/@raj-shethna</a>
 				</div>
 			</div>
-			<form action="https://formsubmit.co/shethnarcan@gmail.com" method="post">
+			<form action="https://formsubmit.co/shethnarcan@gmail.com" method="post" class="contact-form">
 				<input type="hidden" name="_subject" value="New message from your portfolio site">
 				<input type="hidden" name="_captcha" value="false">
 				<input type="hidden" name="_template" value="table">
 				<div class="form-row">
-					<input class="field" type="text" name="name" placeholder="Name" required />
-					<input class="field" type="email" name="email" placeholder="Email" required />
+					<label><span>Name</span><input class="field" type="text" name="name" autocomplete="name" required /></label>
+					<label><span>Email</span><input class="field" type="email" name="email" autocomplete="email" required /></label>
 				</div>
-				<div class="form-row">
-					<textarea class="field" name="message" placeholder="Message" rows="6" style="grid-column: 1 / -1;" required></textarea>
-				</div>
-				<button class="submit-btn" type="submit">Send Message</button>
+				<label class="form-full"><span>Message</span><textarea class="field" name="message" rows="6" required></textarea></label>
+				<button class="submit-btn" type="submit">Send message</button>
 			</form>
 		</div>
 	</section>
+	</main>
 
 	<footer class="site-footer">
 		<div class="container">
 			&copy; 2026 Raj Shethna. <span class="curious">Stay Curious.</span>
 		</div>
 	</footer>
+
+	<script>
+		(function () {
+			var nav = document.querySelector('.navbar');
+			var btn = document.querySelector('.nav-toggle');
+			if (!nav || !btn) return;
+			function setOpen(open) {
+				nav.classList.toggle('open', open);
+				btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+				btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+				btn.querySelector('i').className = open ? 'fas fa-times' : 'fas fa-bars';
+			}
+			btn.addEventListener('click', function () { setOpen(!nav.classList.contains('open')); });
+			document.querySelectorAll('.nav-links a').forEach(function (a) {
+				a.addEventListener('click', function () { setOpen(false); });
+			});
+			document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+		})();
+	</script>
 
 </body>
 </html>
